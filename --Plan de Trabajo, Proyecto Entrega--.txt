@@ -1,0 +1,47 @@
+--Plan de Trabajo, Proyecto Entregable Final--
+
+Para la entrega final el equipo debe entregar todas las funcionalidades descritas más adelante, en la
+fecha definida para ello. Adicionalmente, debe hacer la defensa ante su profesor(a) del curso, para
+que esta entrega final pueda calificarse, de lo contrario no tendrá la nota correspondiente.
+Para la entrega final del proyecto el equipo debe hacer un menú que tenga las siguientes
+funcionalidades:
+
+
+1. Inicializamos todas las rutinas y arreglos, osea todo conectado 
+Recibe como entrada el total de equipos en el torneo. Es un arreglo que llama a todos los demas arreglos (nombre rutina: incializar_torneo)
+
+2. Hay que hacer tres rutinas:
+	a. Equipos recibe el nombre, dependiendo del numero de equipos en "inicializar_torneo" [rutina entrada de datos VOID]
+	b. numJuegos recibe el numero de juegos que va a haber en total (posiblemente, el num de juegos de cada equipo) [rutina que recibe datos por parametro y hace return]
+	c. numOponentes recibe la cantidad de oponentes que va a tener cada equipo. [recibe por parametro y hace return]
+3. Hay dos arreglos que son resultados y puntajeTotal. Se recibe cantidadEquipos,equipos,numJuegos y numOponentes (posible por parametro) y con esto contruir el reporte de resultados para cada equipo del torneo y calcular el puntaje total cada quipo y llenar los arreglos resultados y puntajeTotal (rutina en ambos, llenar)
+
+4. Imprimir reporte de resultados de cada uno de los equipos. Esta recibe arreglo resultados [rutina arreglo imprimoArreglo]****Posiblemente
+5. Imprimir reporte del puntaje total de cada uno de los equipos. Esta recibe arreglo puntajeTotal [rutina arreglo imprimoArreglo]***Unir rutinas
+
+6.Calcular el promedio de oponentes diferentes que tienen cada equipo. Esta recibe numOponentes. [arreglo promedio]
+7.Imprimir el nombre del equipo que ha jugado mas partidos. Esta recibe resultados (Si hay varios equipos debe imprimir el equipo mayor) [arreglo imprimoArreglo]
+8.Imprimir el nombre del equipo que menos puntos ha obtenido. Esta recibe puntajeTotal (Si hay varios equipos debe imprimir el equipo menor) [arreglo imprimoArreglo]
+9.Imprimir el nombre de los equipos que han jugado 5 partidos o mas. Recibe equipos y recibe numJuegos[arreglo imprimoArreglo]
+10.Imprimir el nombre de los equipos que tengan mas oponentes que el promedio de oponentes de todo el torneo. Recibe equipos y recibe promedioOponentes[arreglo imprimoArreglo].
+
+**Hay como minimo 10 rutinas:
+**Arreglos se trabajan como variables locales al programa princial, deben usarse como parametros en diferentes rutinas. 
+
+0. Menu
+1. inicializar_torneo 
+2. equipos,numJuegos,numOponentes
+3. resultados,puntajeTotal
+4. imprimoResultados
+5. imprimoPuntajeTotal
+6. promedioOponentes
+7. imprimoEquipoMasPartidos
+8. imprimoEquipoMenosPuntaje
+9. imprimoCincoPartidosMas
+10. impromoMasOponentesPromedio 
+
+
+
+
+
+

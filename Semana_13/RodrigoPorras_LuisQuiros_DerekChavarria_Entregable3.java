@@ -26,9 +26,7 @@ public class RodrigoPorras_LuisQuiros_DerekChavarria_Entregable3 {
      * break;
      * case 2:
      * 
-     * if (barcos_computer != null && barcos_computer != null) {
-     * imprimo_barcos(barcos_player, "jugador");
-     * imprimo_barcos(barcos_computer, "computadora");
+
      * } else {
      * out.println(
      * "\n\nIngrese algo en la opcion 1\n\n");
@@ -42,7 +40,7 @@ public class RodrigoPorras_LuisQuiros_DerekChavarria_Entregable3 {
      * case 4:
      * 
      * out.println("\n------------------------------------");
-     * out.println("¡Hasta la proxima, Capitán!");
+     * out.println("¡Hasta la proxima!");
      * out.println("------------------------------------");
      * break;
      * 
